@@ -11,6 +11,8 @@
 		16152F101C9AFA35001944D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16152F0F1C9AFA35001944D5 /* ViewController.swift */; };
 		16152F131C9AFA35001944D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16152F111C9AFA35001944D5 /* Main.storyboard */; };
 		16152F151C9AFA35001944D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16152F141C9AFA35001944D5 /* Assets.xcassets */; };
+		16152F1D1C9AFC89001944D5 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16152F1C1C9AFC89001944D5 /* MovieCell.swift */; };
+		16152F1F1C9B01E9001944D5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16152F1E1C9B01E9001944D5 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		16152F121C9AFA35001944D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16152F141C9AFA35001944D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16152F161C9AFA35001944D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16152F1C1C9AFC89001944D5 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		16152F1E1C9B01E9001944D5 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				16152F0D1C9AFA35001944D5 /* AppDelegate.swift */,
 				16152F0F1C9AFA35001944D5 /* ViewController.swift */,
+				16152F1C1C9AFC89001944D5 /* MovieCell.swift */,
+				16152F1E1C9B01E9001944D5 /* Movie.swift */,
 				16152F111C9AFA35001944D5 /* Main.storyboard */,
 				16152F141C9AFA35001944D5 /* Assets.xcassets */,
 				16152F161C9AFA35001944D5 /* Info.plist */,
@@ -133,6 +139,8 @@
 			files = (
 				16152F101C9AFA35001944D5 /* ViewController.swift in Sources */,
 				16152F0E1C9AFA35001944D5 /* AppDelegate.swift in Sources */,
+				16152F1F1C9B01E9001944D5 /* Movie.swift in Sources */,
+				16152F1D1C9AFC89001944D5 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
